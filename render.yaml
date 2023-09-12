@@ -1,0 +1,15 @@
+services:
+  - name: backend
+    type: web
+    buildCommand: npm run build
+    startCommand: npm start
+    env:
+      - key: NODE_ENV
+        value: production
+
+  - name: client
+    type: static
+    buildCommand: npm run build
+    env:
+      - key: REACT_APP_API_URL
+        value: https://bckendnuevo.onrender.com

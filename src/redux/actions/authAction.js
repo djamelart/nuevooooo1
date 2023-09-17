@@ -40,7 +40,7 @@ export const refreshToken = () => async (dispatch) => {
         dispatch({ type: GLOBALTYPES.ALERT, payload: {loading: true} })
 
         try {
-            const res = await postDataAPI('api/refresh_token')
+            const res = await postDataAPI('refresh_token')
             dispatch({ 
                 type: GLOBALTYPES.AUTH, 
                 payload: {

@@ -25,7 +25,7 @@ import Posts from '../components/homePost/Posts.js';
 
 import React, { useEffect, useState } from 'react';
 
-import { getDataAPI } from '../utils/fetchData';
+ import { getDataAPI } from '../utils/fetchData';
 
 import Ventaanoautomobile from '../components/ranges/Ventaanoautomobile';
 import Ventaprecioautomobile from '../components/ranges/Ventaprecioautomobile';

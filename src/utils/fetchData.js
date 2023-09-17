@@ -1,14 +1,8 @@
 import axios from 'axios'
  
-
-//const BASE_URL = "https://bckendnuevo.onrender.com" 
-  //const BASE_URL = "https://bckendnuevo.onrender.com"
  
-
+ 
   const BASE_URL = process.env.REACT_APP_BASE_URL;
-
-  // Resto de tu código Axios
-  
 
 
 export const getDataAPI = async (url, token) => {

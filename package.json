@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "proxy": "https://bckendnuevo.onrender.com/",
+  "homepage": "https://bckendnuevo.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
